@@ -1,10 +1,23 @@
 #homepagecarousel h1 {
-    color:#fff;
-    position:absolute;
+    color: #fff;
+    position: absolute;
     z-index: 12;
-    top:70%;
-    left:0;
-    width:100%;
-    text-align:center;
+    top: 70%;
+    left: 0;
+    width: 100%;
+    text-align: center;
     text-shadow: 2px 2px 4px #000000;
+}
+
+.thumbnail {
+
+
+    transition: transform .7s;
+
+}
+
+.thumbnail:hover {
+    transform: scale(1.7);
+    position: sticky;
+    z-index: 999;
 }
