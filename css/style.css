@@ -10,14 +10,10 @@
 }
 
 .thumbnail {
-
-
     transition: transform .7s;
-
 }
 
 .thumbnail:hover {
     transform: scale(1.7);
-    position: sticky;
     z-index: 999;
 }
