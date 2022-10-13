@@ -17,8 +17,11 @@
     transform: scale(1.7);
     z-index: 999;
 }
-.gradient-custom {
-    background: #6a11cb;
-    background: -webkit-linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1));
-    background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1))
-    }
+.container{
+    position: absolute;
+    z-index: 999;
+    top: 10%;
+    left: 10%;
+    width: 80%;
+    opacity: 85%;
+}
