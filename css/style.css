@@ -1,3 +1,5 @@
+
+
 #homepagecarousel h1 {
     color: #fff;
     position: absolute;
@@ -10,18 +12,26 @@
 }
 
 .thumbnail {
-    transition: transform .7s;
+    transition: transform .8s;
 }
 
 .thumbnail:hover {
     transform: scale(1.7);
     z-index: 999;
 }
-.container{
+.container_login{
     position: absolute;
+    
     z-index: 999;
     top: 10%;
     left: 10%;
     width: 80%;
     opacity: 85%;
 }
+.container_body{
+    z-index: 999;
+    top: 10%;
+    left: 10%;
+    width: 80%;
+}
+
