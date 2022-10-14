@@ -1,5 +1,9 @@
 
-
+* {
+    
+   
+    z-index: 1;
+}
 #homepagecarousel h1 {
     color: #fff;
     position: absolute;
@@ -18,7 +22,7 @@
 }
 
 .thumbnail:hover {
-    transform: scale(1.7);
+    transform: scale(1.3);
     z-index: 999;
 }
 .container_login{
@@ -31,9 +35,16 @@
     opacity: 85%;
 }
 .container_body{
+    
     z-index: 999;
     top: 10%;
     left: 10%;
-    width: 80%;
+    
 }
-
+.container_body img {
+    border-radius: 2rem 
+}
+.card {
+    border-radius: 2rem;
+    
+}
