@@ -1,9 +1,5 @@
 
-* {
-    
-   
-    z-index: 1;
-}
+
 #homepagecarousel h1 {
     color: #fff;
     position: absolute;
@@ -47,4 +43,7 @@
 .card {
     border-radius: 2rem;
     
+}
+p{
+    color: rgba(255,255,255,.5);
 }
