@@ -55,3 +55,12 @@ p{
     width: 80%;
     opacity: 85%;
 }
+.container_signup{
+    border-radius: 2rem;
+    position: absolute;
+    z-index: 999;
+    top: 10%;
+    left: 10%;
+    width: 80%;
+    opacity: 85%;  
+}
