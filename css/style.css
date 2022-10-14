@@ -23,7 +23,6 @@
 }
 .container_login{
     position: absolute;
-    
     z-index: 999;
     top: 10%;
     left: 10%;
@@ -46,4 +45,13 @@
 }
 p{
     color: rgba(255,255,255,.5);
+}
+.container_checkout{
+    border-radius: 2rem;
+    position: absolute;
+    z-index: 999;
+    top: 10%;
+    left: 10%;
+    width: 80%;
+    opacity: 85%;
 }
